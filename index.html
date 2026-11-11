@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Squishy Fever — Privacy Policy, Terms of Use &amp; Support</title>
+  <style>
+    :root {
+      --bg: #FFF9F2;
+      --card: #FFFFFF;
+      --ink: #2C2235;
+      --muted: #6C5D78;
+      --accent: #FF6B9D;
+      --accent-soft: #FFE4EE;
+      --border: #F0E2EA;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      padding: 24px 16px 64px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 28px 20px;
+      background: var(--card);
+      border: 2px solid var(--border);
+      border-radius: 24px;
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+    }
+    nav {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--ink);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    nav a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    section {
+      background: var(--card);
+      border: 2px solid var(--border);
+      border-radius: 24px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-top: 0;
+      color: var(--ink);
+      font-size: 20px;
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Official Legal &amp; Support Page</div>
+      <h1>Squishy Fever</h1>
+      <p>Effective Date: November 2026 &bull; Bundle ID: <code>com.costeacostin.justDontDie</code></p>
+      <nav>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Use (EULA)</a>
+        <a href="#deletion">Account &amp; Data Deletion</a>
+        <a href="#support">Support</a>
+      </nav>
+    </header>
+
+    <section id="privacy">
+      <h2>1. Privacy Policy (Politica de Confidențialitate)</h2>
+      <p><strong>Zero Cross-App Advertising Tracking:</strong> Squishy Fever does not track you across third-party apps or websites, never sells personal data, and never collects your real name, email address, phone number, contacts, or precise GPS location.</p>
+      <ul>
+        <li><strong>Local &amp; Anonymous Cloud Save:</strong> Your creature state, cosmetics, and progression are stored locally on your device (`SharedPreferences` / `UserDefaults`) and optionally synced to Google Firebase Firestore using an anonymous, randomly generated identifier so your leaderboard rank and Co-Parenting room remain backed up.</li>
+        <li><strong>In-App Purchases:</strong> All financial transactions are processed directly by Apple App Store (StoreKit) or Google Play Billing and verified via RevenueCat using an anonymous app user ID. We never see or store your credit card or payment details.</li>
+        <li><strong>Optional Anonymous Analytics:</strong> We collect aggregate, non-identifiable gameplay telemetry (such as minigame scores and session counts) to balance gameplay difficulty. You can disable analytics at any time inside <strong>Settings &rarr; Anonymous analytics</strong>.</li>
+      </ul>
+    </section>
+
+    <section id="terms">
+      <h2>2. Terms of Use &amp; Subscription Disclosure</h2>
+      <ul>
+        <li><strong>Permanent Wardrobe &amp; Shrine Guarantee:</strong> While each individual Squishy creature has a real-time survival timer and can pass away if neglected, <strong>100% of your unlocked cosmetics (Hats, Glasses, Special Auras), Room Themes, Room Toys, Shrine Upgrades, Jelly Coins, Starter Pack items, and Squishy Plus VIP entitlements are permanently bound to your player account</strong> and automatically carry over to every future generation.</li>
+        <li><strong>Squishy Plus Monthly Subscription:</strong> If you subscribe to <em>Squishy Plus Monthly</em>, payment is charged to your Apple ID or Google Play account at confirmation of purchase. The subscription automatically renews monthly at the displayed localized price unless auto-renew is turned off at least 24 hours before the end of the current billing period. You can manage or cancel your subscription at any time in your device's <strong>Settings &rarr; Apple ID &rarr; Subscriptions</strong> (or Google Play Subscriptions).</li>
+        <li><strong>Restore Purchases:</strong> Non-consumable purchases and active subscriptions can be restored at any time via the <strong>Restore Purchases</strong> button inside the Boutique Shop or Settings menu.</li>
+      </ul>
+    </section>
+
+    <section id="deletion">
+      <h2>3. Account &amp; Data Deletion (Ștergerea Datelor)</h2>
+      <p>You can permanently delete all local and cloud data at any time directly inside the app with zero waiting period:</p>
+      <ol>
+        <li>Open <strong>Squishy Fever</strong> and tap the <strong>Settings</strong> (gear) icon in the top-right corner.</li>
+        <li>Scroll to the bottom and tap <strong>Delete My Data (Șterge datele mele)</strong>.</li>
+        <li>Confirm deletion. This immediately erases your Firestore cloud records, deletes your anonymous Firebase authentication UID, and resets local device storage.</li>
+      </ol>
+    </section>
+
+    <section id="support">
+      <h2>4. Player Support &amp; Contact</h2>
+      <p>Need help with a purchase restoration, bug report, or feedback for Squishy Fever?</p>
+      <ul>
+        <li><strong>Email Support:</strong> <a href="mailto:support@squishyfever.app">support@squishyfever.app</a></li>
+        <li><strong>Response Time:</strong> Within 24–48 business hours.</li>
+      </ul>
+    </section>
+
+    <div class="footer">
+      &copy; 2026 Costin Costea. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
+
